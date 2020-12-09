@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "mgt-react-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/mgtReact/MgtReactWebPart.js",
+          "manifest": "./src/webparts/mgtReact/MgtReactWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MgtReactWebPartStrings": "lib/webparts/mgtReact/loc/{locale}.js"
+  }
+}
