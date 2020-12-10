@@ -1,4 +1,4 @@
-import { Providers, SharePointProvider } from '@microsoft/mgt';
+import { Providers, SharePointProvider } from 'mgt-spfx';
 import { Version } from '@microsoft/sp-core-library';
 import {
   IPropertyPaneConfiguration,
@@ -7,7 +7,6 @@ import {
 import { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';
 import * as strings from 'MgtVanillaWebPartStrings';
 import styles from './MgtVanillaWebPart.module.scss';
-import { MgtLibrary } from 'mgt-spfx';
 
 export interface IMgtVanillaWebPartProps {
   description: string;
@@ -15,7 +14,6 @@ export interface IMgtVanillaWebPartProps {
 
 export default class MgtVanillaWebPart extends BaseClientSideWebPart<IMgtVanillaWebPartProps> {
   protected async onInit() {
-    MgtLibrary.name;
     Providers.globalProvider = new SharePointProvider(this.context);
   }
 
