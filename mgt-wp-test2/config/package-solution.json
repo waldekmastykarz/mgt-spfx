@@ -13,7 +13,13 @@
       "privacyUrl": "",
       "termsOfUseUrl": "",
       "mpnId": ""
-    }
+    },
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.Read"
+      }
+    ]
   },
   "paths": {
     "zippedPackage": "solution/mgt-wp-test-2.sppkg"

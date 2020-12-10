@@ -1,4 +1,5 @@
-import { Providers, SharePointProvider } from '@microsoft/mgt';
+
+import { Providers,SharePointProvider } from 'mgt-spfx';
 import { Version } from '@microsoft/sp-core-library';
 import {
   IPropertyPaneConfiguration,
@@ -17,7 +18,7 @@ export interface IMgtReactWebPartProps {
 
 export default class MgtReactWebPart extends BaseClientSideWebPart<IMgtReactWebPartProps> {
   protected async onInit() {
-    Providers.globalProvider = new SharePointProvider(this.context);
+    Providers.globalProvider= new SharePointProvider(this.context);
   }
 
   public render(): void {
