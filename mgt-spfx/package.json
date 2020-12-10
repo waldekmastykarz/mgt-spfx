@@ -16,7 +16,6 @@
     "@microsoft/mgt-element": "^2.0.0-rc.1",
     "@microsoft/mgt-sharepoint-provider": "2.0.0-rc.1",
     "@microsoft/rush-stack-compiler-3.7": "^0.6.36"
-   
   },
   "devDependencies": {
     "@microsoft/sp-build-web": "1.11.0",
