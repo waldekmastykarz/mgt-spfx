@@ -8,7 +8,6 @@ import { escape } from '@microsoft/sp-lodash-subset';
 
 import styles from './MgtVanillaWebPart.module.scss';
 import * as strings from 'MgtVanillaWebPartStrings';
-
 export interface IMgtVanillaWebPartProps {
   description: string;
 }
@@ -21,12 +20,8 @@ export default class MgtVanillaWebPart extends BaseClientSideWebPart<IMgtVanilla
         <div class="${ styles.container }">
           <div class="${ styles.row }">
             <div class="${ styles.column }">
-              <span class="${ styles.title }">Welcome to SharePoint!</span>
-              <p class="${ styles.subTitle }">Customize SharePoint experiences using Web Parts.</p>
-              <p class="${ styles.description }">${escape(this.properties.description)}</p>
-              <a href="https://aka.ms/spfx" class="${ styles.button }">
-                <span class="${ styles.label }">Learn more</span>
-              </a>
+              <span class="${ styles.title }">Vanila webpart</span>
+              <mgt-person person-query="me" show-name show-email></mgt-person>
             </div>
           </div>
         </div>

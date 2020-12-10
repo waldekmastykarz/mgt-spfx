@@ -5,7 +5,7 @@
     "mgt-library": {
       "components": [
         {
-          "entrypoint": "./lib/libraries/mgt/MgtLibrary.js",
+          "entrypoint": "./lib/index.js",
           "manifest": "./src/libraries/mgt/MgtLibrary.manifest.json"
         }
       ]
