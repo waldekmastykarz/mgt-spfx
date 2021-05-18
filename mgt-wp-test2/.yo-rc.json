@@ -2,7 +2,7 @@
   "@microsoft/generator-sharepoint": {
     "isCreatingSolution": true,
     "environment": "spo",
-    "version": "1.11.0",
+    "version": "1.12.1",
     "libraryName": "mgt-wp-test-2",
     "libraryId": "253cae66-7058-41c0-bdeb-961266b77d19",
     "packageManager": "npm",
