@@ -1,4 +1,4 @@
-import { Providers, SharePointProvider } from 'mgt-spfx';
+import { Providers, SharePointProvider } from '@microsoft/mgt-spfx';
 import { Version } from '@microsoft/sp-core-library';
 import {
   IPropertyPaneConfiguration,
